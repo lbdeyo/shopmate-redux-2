@@ -6,6 +6,7 @@ const cartSlice = createSlice({
     cartList: [],
     total: 0,
   },
+  // a reducer defines how a state can be updated
   reducers: {
     add(state, action) {
       console.log(state);
